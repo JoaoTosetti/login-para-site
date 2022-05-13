@@ -10,12 +10,15 @@
     
     <h1>Faça seu login:</h1>
 
-        <input type="email" name="email" size="40" value="" placeholder="Exemplo.123@gmail.com"> <br>
+    <input type="email" name="email" size="40" value="" placeholder="Digite seu email">
+    <br>
 
-        <input type="password" name="senha" size="40" value="" placeholder="Digite sua senha"> <br>
-
+    <input type="password" name="senha" size="40" value="" placeholder="Digite sua senha">
+    <br>
 
     <a href="#" class = "botaoEntrar">Entrar</a>
+    <br>
+    <a href="#" class="cadastro">cadastrar</a>
 
 
 </body>

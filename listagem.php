@@ -15,10 +15,15 @@
     $sql_pesquisar = "select * from cadastro";
     $resultado = mysqli_query($conexao, $sql_pesquisar);
     while ($linha = mysqli_fetch_assoc($resultado)) {
-        echo "Nome: {$linha['nome']} ";
+        echo "Primeiro Nome: {$linha['Pnome']} ";
+        echo "<br>";
+        echo "Último Nome : {$linha['Unome']} ";
+        echo "<br>";
         echo "Celular: {$linha['cel']} ";
+        echo "<br>";
         echo "Email: {$linha['email']}";
         echo "<br>";
+        echo "//////";
     }
     ?>
     

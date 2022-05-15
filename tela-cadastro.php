@@ -12,7 +12,7 @@
 
     <form action="cadastroBD.php" method="post">
 
-    <label for = "PnomeCdstLabel"> Primeiro Nome:</label> <input type = "text" name ="pnomecdst" id ="PnomeC" size="40" value ="" placeholder ="Digite seu primeiro nome">
+    <label for = "PnomeCdstLabel"> Primeiro Nome:</label> <input type = "text" name ="PnomeCdst" id ="PnomeC" size="40" value ="" placeholder ="Digite seu primeiro nome">
     <br>
     <label for = "UnomeCdstLabel"> Ultimo Nome:</label> <input type = "text" name ="UnomeCdst" id ="UnomeC" size="40" value ="" placeholder ="Digite seu último nome">
     <br>
@@ -20,9 +20,9 @@
     <br>
     <label for = "emailCdstLabel"> Email:</label> <input type = "email" name = "emailCdst" id ="emailC" size = "40" value="" placeholder = "exemplo.123@gmail.com">
     <br>
-    <label for = "senhaCdstLabel"> Senha:</label> <input type= "text" name ="senhaCdst" id ="senhaC" size ="30">
+    <label for = "senhaCdstLabel"> Senha:</label> <input type= "password" name ="senhaCdst" id ="senhaC" size ="30">
     <br>
-    <label for = "senhaCdstConfirmLabel"> Confirmar Senha:</label> <input type="text" name ="senhaCdstConfirm" id ="senhaCConfirm" size ="30">
+    <label for = "senhaCdstConfirmLabel"> Confirmar Senha:</label> <input type="password" name ="senhaCdstConfirm" id ="senhaCConfirm" size ="30">
     <br>
     <button type = "submit">Cadastrar</buttom>
     

@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(35, 24, 61);
+    background-color: rgb(138, 110, 202);
 }
 
 h1{
@@ -11,11 +11,9 @@ h1{
     text-align: center;
 }
 
-.botaoEntrar,
-.botaoCadastro,
-.botaoLista{
-        text-decoration: none;
+.botaoIndex {
+    text-decoration: none;
         font-weight: bold;
         font-size: 16px;
         text-transform: uppercase;
-    }
+}

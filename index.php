@@ -8,21 +8,39 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    
-    <h1>Faça seu login:</h1>
+    <form action="login.php" method="post">    
 
-    <input type="email" name="email" id ="caixaEmail" size="40" value="" placeholder="Digite seu email">
-    <br>
+        <h1>Faça seu login:</h1>
 
-    <input type="password" name="senha" size="40" value="" placeholder="Digite sua senha">
-    <br>
+        <?php
+        $mensagem = isset($_GET['mensagem']);
 
-    <a href="#" class = "botaoEntrar">Entrar</a>
-    <br>
-    <a href="tela-cadastro.php" class="botaoCadastro">cadastrar</a>
-    <br>
-    <a href="listagem.php" class = "botaoLista">Lista</a>
+        if($mensagem){
+            echo "<h2>usuário não encontrado</h2>";
+        }
+        ?>
 
+        <input type="email" name="email" id ="caixaEmail" size="40" value="" placeholder="Digite seu email">
+        <br>
+
+        <input type="password" name="senha" size="40" value="" placeholder="Digite sua senha">
+        <br>
+
+        <button>
+            <a href="tela-entrada.php" class = "botaoIndex">Entrar</a>
+        </button>
+        <br>
+        <button>
+            <a href="tela-cadastro.php" class="botaoIndex">cadastrar</a>
+        </button>
+        <br>
+        <button>
+            <a href="listagem.php" class = "botaoIndex">Lista</a>
+        </button>
+        <br>
+        <input type = "submit" name="login">
+
+    </form>
 
 </body>
 </html>
